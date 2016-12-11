@@ -1,0 +1,39 @@
+﻿Построение начато 11.12.2016 3:29:35.
+     1>Проект "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\RMUTranslator.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       PreBuildEvent:
+         copy "D:\Study\RMUTranslator\RMUTranslator\Lib\Debug\*.dll" "D:\Study\RMUTranslator\RMUTranslator\Debug\"
+         :VCEnd
+         D:\Study\RMUTranslator\RMUTranslator\Lib\Debug\RMUDLL.dll
+         Скопировано файлов:         1.
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt RMUTranslator.cpp STRResult.cpp /clr:nostdlib 
+         RMUTranslator.cpp
+         STRResult.cpp
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Lib:
+         D:\Soft\msvs\msvs 2010\VC\bin\Lib.exe /OUT:"D:\Study\RMUTranslator\RMUTranslator\Debug\RMUTranslator.lib" RMUDLL.lib RMUResult.lib /NOLOGO /MACHINE:X86 Debug\app.res
+         Debug\convert.obj
+         Debug\RMUCaller.obj
+         Debug\RMUTranslator.obj
+         Debug\stdafx.obj
+         Debug\STRResult.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ╟рьхэр Debug\stdafx.obj
+     1>.NETFramework,Version=v4.0.AssemblyAttributes.obj : warning LNK4221: ▌ЄюЄ Їрщы юс·хъЄр эх юяЁхфхы хЄ ъръшх-ышсю Ёрэхх эхюяЁхфхыхээ√х юЄъЁ√Є√х ёшьтюы√, яю¤Єюьє юэ эх сєфхЄ шёяюы№чютрЄ№ё  эшъръшьш юяхЁрЎш ьш ъюьяюэютъш, юсЁр∙р■∙шьшё  ъ ¤Єющ сшсышюЄхъх
+         RMUTranslator.vcxproj -> D:\Study\RMUTranslator\RMUTranslator\Debug\RMUTranslator.lib
+       FinalizeBuildStatus:
+         Файл "Debug\RMUTranslator.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\RMUTranslator.lastbuildstate".
+     1>Построение проекта "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.41
