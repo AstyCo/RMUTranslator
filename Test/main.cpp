@@ -45,6 +45,9 @@ int _tmain(int argc, _TCHAR* argv[])
 			try {
 				cout << TranslateToConsole(string("Введите словоформу или quit>")) << endl;
 				cin.getline(word, sizeof word);
+				cout << "1: " << word << endl;
+				cout << "2: " << TranslateFromConsole(word) << endl;
+				cout << "3: " << "арбуз" << endl;
 				if (strcmp(word,"quit") == 0) break;
 				string result;
 				if (word[0] != '<')

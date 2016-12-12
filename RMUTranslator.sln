@@ -5,6 +5,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RMUTranslator", "RMUTransla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{A550D1CB-850A-479F-96C1-5F36D37FC148}"
 	ProjectSection(ProjectDependencies) = postProject
+		{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353} = {F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}
+		{A3CD064A-32A8-42F2-AC49-6F064573F965} = {A3CD064A-32A8-42F2-AC49-6F064573F965}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSharpRMUTranslator", "CSharpRMUTranslator\CSharpRMUTranslator.vcxproj", "{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}"
+	ProjectSection(ProjectDependencies) = postProject
 		{A3CD064A-32A8-42F2-AC49-6F064573F965} = {A3CD064A-32A8-42F2-AC49-6F064573F965}
 	EndProjectSection
 EndProject
@@ -22,6 +28,10 @@ Global
 		{A550D1CB-850A-479F-96C1-5F36D37FC148}.Debug|Win32.Build.0 = Debug|Win32
 		{A550D1CB-850A-479F-96C1-5F36D37FC148}.Release|Win32.ActiveCfg = Release|Win32
 		{A550D1CB-850A-479F-96C1-5F36D37FC148}.Release|Win32.Build.0 = Release|Win32
+		{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}.Debug|Win32.Build.0 = Debug|Win32
+		{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}.Release|Win32.ActiveCfg = Release|Win32
+		{F034F20A-CB10-4CD3-AA1C-A2D6B23A8353}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

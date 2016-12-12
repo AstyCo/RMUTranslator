@@ -23,6 +23,7 @@ private:
 
 public:
 	static STRResult toSynTagRusFeature(const RMUResult &result);
+	//static std::wstring toSynTagRus(const 
 
 	///////
 	// functions translating RMU structure to SynTagRus 2012 structures

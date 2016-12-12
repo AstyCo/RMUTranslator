@@ -1,6 +1,8 @@
-﻿Построение начато 11.12.2016 3:29:35.
-     1>Проект "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" в узле 2 (целевые объекты build).
-     1>InitializeBuildStatus:
+﻿Построение начато 13.12.2016 1:14:12.
+     1>Проект "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\RMUTranslator.lastbuildstate" удаляется.
+       InitializeBuildStatus:
          Создание "Debug\RMUTranslator.unsuccessfulbuild", так как было задано "AlwaysCreate".
        PreBuildEvent:
          copy "D:\Study\RMUTranslator\RMUTranslator\Lib\Debug\*.dll" "D:\Study\RMUTranslator\RMUTranslator\Debug\"
@@ -10,14 +12,18 @@
        GenerateTargetFrameworkMonikerAttribute:
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
-         Для всех выходных данных обновления не требуется.
-         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt RMUTranslator.cpp STRResult.cpp /clr:nostdlib 
+         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RMUTranslator.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt convert.cpp RMUCaller.cpp RMUTranslator.cpp STRResult.cpp /clr:nostdlib 
+         convert.cpp
+         RMUCaller.cpp
          RMUTranslator.cpp
          STRResult.cpp
          Создание кода...
-         Для всех выходных данных обновления не требуется.
+         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\astyco\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
        ResourceCompile:
-         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
        Lib:
          D:\Soft\msvs\msvs 2010\VC\bin\Lib.exe /OUT:"D:\Study\RMUTranslator\RMUTranslator\Debug\RMUTranslator.lib" RMUDLL.lib RMUResult.lib /NOLOGO /MACHINE:X86 Debug\app.res
          Debug\convert.obj
@@ -32,8 +38,8 @@
        FinalizeBuildStatus:
          Файл "Debug\RMUTranslator.unsuccessfulbuild" удаляется.
          Обращение к "Debug\RMUTranslator.lastbuildstate".
-     1>Построение проекта "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "D:\Study\RMUTranslator\RMUTranslator\RMUTranslator\RMUTranslator.vcxproj" завершено (целевые объекты rebuild).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.41
+Затраченное время: 00:00:04.05

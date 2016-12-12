@@ -1,12 +1,16 @@
-﻿Построение начато 11.12.2016 3:30:53.
-     1>Проект "D:\Study\RMUTranslator\RMUTranslator\Test\Test.vcxproj" в узле 2 (целевые объекты build).
-     1>InitializeBuildStatus:
-         Создание "Debug\Test.unsuccessfulbuild", так как было задано "AlwaysCreate".
+﻿Построение начато 13.12.2016 0:41:34.
+     1>Проект "D:\Study\RMUTranslator\RMUTranslator\Test\Test.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Test.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\Test.unsuccessfulbuild".
        ClCompile:
-         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         D:\Soft\msvs\msvs 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp stdafx.cpp
+         stdafx.cpp
          main.cpp
+         Создание кода...
        ManifestResourceCompile:
-         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Test.exe.embed.manifest.res" Debug\Test_manifest.rc 
        Link:
          D:\Soft\msvs\msvs 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.exe" /INCREMENTAL /NOLOGO RMUTranslator.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.lib" /MACHINE:X86 Debug\Test.exe.embed.manifest.res
          Debug\main.obj
@@ -14,16 +18,21 @@
      1>RMUTranslator.lib(RMUResult.obj) : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
      1>RMUTranslator.lib(RMUResult.obj) : warning LNK4099: "vc100.pdb" PDB не найден с "RMUTranslator.lib(RMUResult.obj)" или на "D:\Study\RMUTranslator\RMUTranslator\Debug\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
        Manifest:
+         Файл "Debug\Test.exe.embed.manifest" удаляется.
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Test.exe.embed.manifest" /manifest Debug\Test.exe.intermediate.manifest
-         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Test.exe.embed.manifest.res" Debug\Test_manifest.rc 
        LinkEmbedManifest:
-         Для всех выходных данных обновления не требуется.
+         D:\Soft\msvs\msvs 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.exe" /INCREMENTAL /NOLOGO RMUTranslator.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\RMUTranslator\RMUTranslator\Debug\Test.lib" /MACHINE:X86 Debug\Test.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\stdafx.obj
+     1>RMUTranslator.lib(RMUResult.obj) : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+     1>RMUTranslator.lib(RMUResult.obj) : warning LNK4099: "vc100.pdb" PDB не найден с "RMUTranslator.lib(RMUResult.obj)" или на "D:\Study\RMUTranslator\RMUTranslator\Debug\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
          Test.vcxproj -> D:\Study\RMUTranslator\RMUTranslator\Debug\Test.exe
        FinalizeBuildStatus:
          Файл "Debug\Test.unsuccessfulbuild" удаляется.
          Обращение к "Debug\Test.lastbuildstate".
-     1>Построение проекта "D:\Study\RMUTranslator\RMUTranslator\Test\Test.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "D:\Study\RMUTranslator\RMUTranslator\Test\Test.vcxproj" завершено (целевые объекты rebuild).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.11
+Затраченное время: 00:00:01.77
